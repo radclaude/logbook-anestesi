@@ -2,10 +2,11 @@
   "name": "logbook-anestesi",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://radclaude.github.io/logbook-anestesi",
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "gh-pages": "^6.0.0"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -13,5 +14,11 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://radclaude.github.io/logbook-anestesi"
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version"]
+  }
 }
