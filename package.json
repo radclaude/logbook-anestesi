@@ -13,5 +13,5 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://USERNAME.github.io/logbook-anestesi"
+  "homepage": "https://radclaude.github.io/logbook-anestesi"
 }
